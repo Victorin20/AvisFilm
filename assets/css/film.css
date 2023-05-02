@@ -1,0 +1,161 @@
+body 
+{
+	background-image: url("../images/back.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+
+#images_films img
+{
+
+position: relative;
+top:10px;
+width: 300px;
+height: 400px;
+
+
+z-index: 2;
+}
+
+
+#avis
+{
+	
+	width: max-content;
+	height: max-content;
+
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #4968d9;
+	
+    margin:10px;
+	
+    font-family:Arial;
+    font-size:16px;
+    color:rgb(255, 255, 255);
+			
+}
+
+#publicateur
+{
+	width: max-content;
+	height: max-content;
+	border-radius: 10px;
+	padding: 5px;
+	margin:10px;
+		
+	font-family: monospace;
+	font-size:16px;
+	background-color: #d61c19;
+	color:rgb(255, 255, 255);  
+   
+}
+
+
+#noms_films
+{
+	position: absolute;
+	top: 90px;
+	left: 320px; 
+	font-size:30px;
+	color:rgb(0, 0, 0);
+	
+}
+
+#select
+{
+	position: fixed;
+	width:350px;
+	height:50px;
+	top:200px;
+	left: 700px;
+	font-size:20px;
+}
+
+
+
+#avis_text
+{
+	position : fixed;
+	top: 150px;
+	left: 550px;
+	width: max-content;
+	height: max-content;
+
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #65719e;
+	
+    margin:10px;
+	
+    font-family:Arial;
+    font-size:16px;
+    color:rgb(255, 255, 255);
+}
+
+#deposer_avis_button input[type=submit]{
+	
+	position: fixed;
+	display: block;
+	margin-top: 30px;
+	top : 360px;
+	left : 350px;
+	width:140px;
+	height: 40px;
+	background-color: #3a9b68;
+	border-radius: 16px;
+	font-size:16px;
+	border-color: #77ac63;
+	color: #ffffff;
+}
+
+#deposer_button input[type=submit]{
+	
+	position: fixed;
+	display: block;
+	margin-top: 30px;
+	top : 300px;
+	left : 350px;
+	width:140px;
+	height: 40px;
+	background-color: #3a9b68;
+	border-radius: 16px;
+	font-size:16px;
+	border-color: #77ac63;
+	color: #ffffff;
+}
+
+.error{
+	
+	position:fixed;
+	background-color: #f55b08;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 5px 10px;
+	width: max-content;
+	
+	max-width: 1000px;
+	max-height: 30px;
+	left:400px;
+	top : 150px;
+	font-size: 19px;
+	
+}
+
+
+.succes{
+	display: block;
+	background-color: #18e21f;
+	border-radius: 10px;
+	color: #ffffff;
+	padding: 5px 10px;
+	width: max-content;
+	position:fixed;
+	left:100px;
+	max-width: 1000px;
+	max-height: 30px;
+	margin-top: 5px;
+	font-size: 19px;
+	align-self: center;
+}

@@ -1,0 +1,21 @@
+{
+  "cols": [
+    "prenom",
+    "nom",
+    "pseudo",
+    "mail",
+    "password"
+  ],
+  "data": [
+    ["admin","admin","admin", "admin", "admin"],
+    ["Carla","Loudermilk","Elton", "sociosqu@augueporttitor.ca", "GWN56pQR9VC"],
+    ["Eugene","Hilton","Chanda", "magna.Phasellus@sollicitudin.edu",  "RfC48XXS8WW"],
+    ["Brenda","Brown","Jarrod", "enim.condimentum@orci.edu",  "NaY17Ubv6ZQ"],
+    ["Randy","Parker","Colt", "vel.est.tempor@nibhAliquam.edu",  "SbD97Hdz3JO"],
+    ["McDuffie","Martha","Celeste", "Aliquam.adipiscing@non.ca", "AvL25Pyu1PO"],
+    ["Franco","Steve","Gemma", "sed@nec.org", "CsG37Lrq9UO"],
+    ["Oliver","Shawn","Alisa", "tincidunt.dui@Aenean.ca",  "CgM66Fww6LT"],
+    ["Valentin","Steve","Adrienne", "turpis.non@sitametmetus.org", "ItP21Bzu7EN"],
+    ["Watson","Maureen","Tate", "lorem.eu.metus@Nullamscelerisque.co.uk", "HwA55Fnu9DW"]
+ 
+}
